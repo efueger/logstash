@@ -9,7 +9,7 @@ engines:
       - python
       - php
     exclude_paths:
-      - lib/
+      - logstash-core/lib
   fixme:
     enabled: false
   rubocop:
