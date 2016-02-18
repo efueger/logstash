@@ -11,7 +11,7 @@ engines:
     exclude_paths:
       # - logstash-core/lib
       # - logstash-core/spec
-      - "logstash-core-event/spec/logstash/event_spec.rb"
+      # - "logstash-core-event/spec/logstash/event_spec.rb"
   fixme:
     enabled: false
   rubocop:
