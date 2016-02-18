@@ -12,7 +12,7 @@ engines:
       # - logstash-core/lib
       # - logstash-core/spec
       # - "logstash-core-event/spec/logstash/event_spec.rb"
-      - "logstash-core-event/spec/logstash/event_spec.rb"
+      - logstash-core-event/**
   fixme:
     enabled: false
   rubocop:
@@ -27,8 +27,8 @@ ratings:
   - "**.py"
   - "**.rb"
 exclude_paths:
-- logstash-core/lib
-- logstash-core/spec
+# - logstash-core/lib
+# - logstash-core/spec
 # - spec/
 # - test/
 # - lib/
