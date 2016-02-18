@@ -10,6 +10,7 @@ engines:
       - php
     exclude_paths:
       - logstash-core/lib
+      - logstash-core/spec
   fixme:
     enabled: false
   rubocop:
