@@ -25,6 +25,8 @@ ratings:
   - "**.py"
   - "**.rb"
 exclude_paths:
+- logstash-core/lib
+- logstash-core/spec
 # - spec/
 # - test/
 # - lib/
